@@ -236,14 +236,12 @@ input[type=email] {
     h1 {
         font-size: 1.8rem;
     }
-    .title h2 {
-        display: none;
-    }
-    ul, li {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+}
+
+ul, li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (max-width: 500px) {
@@ -263,5 +261,8 @@ input[type=email] {
         display: flex;
         justify-content: center;
         margin: 0 auto;
+    }
+    .submit {
+        margin: 10px;
     }
 }
