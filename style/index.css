@@ -247,9 +247,6 @@ input[type=email] {
 }
 
 @media (max-width: 500px) {
-    .image-container, .profile-img, .about-container {
-        display: none;
-    }
     h1 {
         font-size: 1.8rem;
     }
