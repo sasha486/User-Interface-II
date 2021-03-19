@@ -233,28 +233,33 @@ input[type=email] {
 /*vertical column at the breakpoint*/
 
 @media (max-width: 800px) {
-    h1 {
-        font-size: 1.8rem;
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery img {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
-ul, li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 @media (max-width: 500px) {
-    h1 {
-        font-size: 1.8rem;
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .title {
         margin-top: 2rem;
         margin-bottom: 5px;
     }
-    .row {
+    .nav {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
     }
     .form, .form-heading {
         width: 50rem;
